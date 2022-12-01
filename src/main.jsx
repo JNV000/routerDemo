@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        path: "/contacts:contactId",
+        path: "/contacts/:contactId",
         element: <Contact />,
       },
     ],

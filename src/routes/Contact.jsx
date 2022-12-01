@@ -12,7 +12,7 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact">
+    <div id="contact" className="pt-1">
       <div>
         <img key={contact.avatar} src={contact.avatar || null} />
       </div>
